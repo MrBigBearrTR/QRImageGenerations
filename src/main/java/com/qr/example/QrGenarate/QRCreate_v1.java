@@ -20,14 +20,14 @@ import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.QRCodeWriter;
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
 
-public class QRCreate {
+public class QRCreate_v1 {
 
     public static final int SIZE_LENGHT = 300;
 
     public static void main(String[] args) {
         try {
             System.out.println("----START-----");
-            createQrImage("newQrCode".getBytes(), "jpg");
+            createQrImage("https://github.com/MrBigBearrTR/QRImageGenerations".getBytes(), "jpg");
             System.out.println("-----END------");
         } catch (Exception e) {
             e.printStackTrace();
